@@ -1,16 +1,16 @@
 videojs.plugin('youbora', function() {
   var player = this;
+  console.log(player.mediainfo.name);
   if (player.youbora) {
      player.youbora({ 
         accountCode: 'settaiwandev', 
         media: {
            isLive: false,
-           title: player.mediainfo.name
+           title: 'test'
         },
         // Other OPTIONS 
     });
   }
-  console.log(player.mediainfo.name);
 });
 
 
