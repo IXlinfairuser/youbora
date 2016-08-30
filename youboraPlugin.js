@@ -5,7 +5,7 @@ videojs.plugin('youbora', function() {
         accountCode: 'settaiwandev', 
         media: {
            isLive: false,
-           title: this.mediainfo.name
+           title: player.mediainfo.name
         },
         // Other OPTIONS 
     });
