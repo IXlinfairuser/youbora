@@ -10,6 +10,7 @@ videojs.plugin('youbora', function() {
         // Other OPTIONS 
     });
   }
+  console.log(player.mediainfo.name);
 });
 
 
