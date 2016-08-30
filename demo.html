@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>進擊的大叔－挑戰二：外傘頂洲野炊-360 #20160826</title>
+</head>
+<body>
+	<video id="myPlayerID"
+	data-video-id="5088250993001" 
+	data-account="4730681151001" 
+	data-player="N1gvWtQmRl" 
+	data-embed="default" 
+	class="video-js" 
+	controls></video>
+	<script src="//players.brightcove.net/4730681151001/N1gvWtQmRl_default/index.min.js"></script>
+	<!-- youbora plugin -->
+	<script src="http://smartplugin.youbora.com/v5/javascript/videojs5/5.3.1/sp.min.js"></script>
+	<script>
+	   // Your player initialization:
+	   var player = videojs('myPlayerID');
+	   
+	   // Plugin initialization must come immediately after the player initialization
+	   if (player.youbora) {
+	      player.youbora({ 
+	         accountCode: 'settaiwandev', 
+	         media: {
+	            isLive: false,
+	            title: '進擊的大叔－挑戰二：外傘頂洲野炊-360 #20160826'
+	         },
+	         // Other OPTIONS 
+	     });
+	   }
+	</script>
+</body>
+</html>
